@@ -19,13 +19,12 @@ if (process.env.NODE_ENV !== 'production') {
     if (typeof console !== 'undefined') {
       console.error(message);
     }
-    try {
+//     try {
       // --- Welcome to debugging React ---
       // This error was thrown as a convenience so that you can use this stack
       // to find the callsite that caused this warning to fire.
       throw new Error(message);
-    } 
-    //catch (x) {}
+//     } catch (x) {}
   };
 }
 
